@@ -10,6 +10,25 @@
     transition: all .9s ease-in-out;
   }
 
+  .card-img-top {
+    width: 100%;
+  }
+
+  .card-header {
+    font-size: 2vw;
+    background-color: white;
+    border: none;
+  }
+
+  .card-footer {
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 50%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
   &:hover {
     transform: rotate(10deg);
     transition: all .9s ease-in-out;
@@ -20,30 +39,12 @@
       transform: rotate(-10deg);
       transition: transform .9s ease-in-out;
     }
+
+    .card-footer:hover {
+      background-color: aquamarine;
+      border-radius: 1vw;
+      transition: all .9s ease-in-out;
+    }
   }
 }
 
-.card-img-top {
-  width: 100%;
-}
-
-.card-header {
-  font-size: 2vw;
-  background-color: white;
-  border: none;
-}
-
-.card-footer {
-  background-color: white;
-  border: none;
-  outline: none;
-  width: 50%;
-  margin: auto;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-  :hover {
-    background-color: aquamarine;
-    border-radius: 1vw;
-    transition: all .9s ease-in-out;
-  }
-}
