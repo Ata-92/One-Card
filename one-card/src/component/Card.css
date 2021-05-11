@@ -46,4 +46,20 @@
   background-color: white;
   border: none;
 }
+
+.card-footer {
+  background-color: white;
+  border: none;
+  outline: none;
+  width: 50%;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-footer :hover {
+  background-color: aquamarine;
+  border-radius: 1vw;
+  -webkit-transition: all .9s ease-in-out;
+  transition: all .9s ease-in-out;
+}
 /*# sourceMappingURL=Card.css.map */
