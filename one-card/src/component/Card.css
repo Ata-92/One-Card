@@ -36,4 +36,14 @@
   transition: transform .9s ease-in-out;
   transition: transform .9s ease-in-out, -webkit-transform .9s ease-in-out;
 }
+
+.card-img-top {
+  width: 100%;
+}
+
+.card-header {
+  font-size: 2vw;
+  background-color: white;
+  border: none;
+}
 /*# sourceMappingURL=Card.css.map */
