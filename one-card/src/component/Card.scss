@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  border: none;
+  transition: all .9s ease-in-out;
+  overflow: hidden;
+
+  div {
+    transition: all .9s ease-in-out;
+  }
+
+  &:hover {
+    transform: rotate(10deg);
+    transition: all .9s ease-in-out;
+    box-shadow: 0 0 1vw 1vw rgba(0, 0, 0, .5);
+    overflow: hidden;
+
+    div {
+      transform: rotate(-10deg);
+      transition: transform .9s ease-in-out;
+    }
+  }
+}
+

@@ -1,0 +1,39 @@
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 20%;
+  border: none;
+  -webkit-transition: all .9s ease-in-out;
+  transition: all .9s ease-in-out;
+  overflow: hidden;
+}
+
+.card div {
+  -webkit-transition: all .9s ease-in-out;
+  transition: all .9s ease-in-out;
+}
+
+.card:hover {
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-transition: all .9s ease-in-out;
+  transition: all .9s ease-in-out;
+  -webkit-box-shadow: 0 0 1vw 1vw rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 1vw 1vw rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.card:hover div {
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+  -webkit-transition: -webkit-transform .9s ease-in-out;
+  transition: -webkit-transform .9s ease-in-out;
+  transition: transform .9s ease-in-out;
+  transition: transform .9s ease-in-out, -webkit-transform .9s ease-in-out;
+}
+/*# sourceMappingURL=Card.css.map */
